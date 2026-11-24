@@ -1,0 +1,38 @@
+Reference,Qty,Value / Part,Package,Description
+"C1, C2",2,1 µF,0402,Ceramic capacitor
+"C3, C7, C8, C16",4,10 µF,0603,Ceramic capacitor
+"C4, C5, C6, C9, C11, C14",6,100 nF,0402,Ceramic capacitor
+C10,1,1 nF,0402,555 timing
+"C12, C13",2,10 nF,1206,"High-voltage capacitor (tube supply), rated ≥ 500 V"
+C15,1,22 pF,0402,Pulse coupling capacitor
+R1,1,1 Ω,0603,Supply filter for the LDO
+"R2, R3, R6, R7, R14, R20",6,100 kΩ,0402,Resistor
+"R4, R5",2,5.1 kΩ,0402,USB-C CC pull-down
+"R8, R16, R17, R21",4,10 kΩ,0402,Resistor
+"R9, R10, R12, R13",4,330 Ω,0402,Resistor
+R11,1,1 kΩ,0402,Resistor
+R15,1,10 Ω,0402,"Current sense, HV converter"
+R18,1,4.7 MΩ,1206,Anode resistor of the Geiger tube
+R19,1,33 kΩ,0402,Pulse detector base resistor
+L1,1,FNR8065S103MT,8 x 8 mm,"10 mH inductor, HV boost converter"
+D1,1,SP0503BAHTG,SOT-143,ESD protection USB-C
+D2,1,RS2AF,SMA flat,Diode
+D3,1,RS1JF,SMA flat,"600 V fast diode, HV rectifier"
+Q1,1,MMBTA44,SOT-23,"400 V NPN, HV converter switch"
+"Q2, Q4",2,MMBT3904,SOT-23,NPN transistor
+Q3,1,PT17-21C/L41/TR8,0805,Phototransistor (brightness)
+IC1,1,ESP32-C6-MINI-1-N4,Module,MCU with Zigbee / Thread / Wi-Fi 6 / BLE
+IC2,1,RT9080-33GJ5,SOT-23-5,"3.3 V LDO, 600 mA"
+IC3,1,TLC555IDR,SOIC-8,Timer for the HV boost converter
+IC4,1,SGP30,DFN 2.44 x 2.44,TVOC / eCO2 gas sensor (I2C 0x58)
+IC5,1,MAX9814 breakout,Module,Microphone with AGC amplifier
+IC6,1,SCD40-D-R2,LGA 10.1 x 10.1,"CO2 sensor, photoacoustic NDIR (I2C 0x62)"
+U1,1,TYPE-C-31-M-14,USB-C 16-pin,USB-C power and native USB
+U2,1,BME680,LGA 3 x 3,Pressure / temperature / humidity / gas sensor (I2C 0x76)
+U3,1,MQ-7,THT,CO gas sensor
+GC1,1,J305 (80 mm),Tube clips,Geiger-Müller tube
+PMS5003,1,Plantower PMS5003,Module,"Particulate matter sensor PM1.0 / PM2.5 / PM10, connected to JP1"
+JP1,1,Pin header 1x06,2.54 mm,"PMS5003 connector (5 V, GND, TX, RX)"
+J1,1,TC2030-IDC,Tag-Connect,Programming
+LED1,1,FM-B2020RGBA-HG,2020,RGB status LED
+"SW1, SW2",2,TS-1088-AR02016,SMD,Tactile switch (pair / reset)
